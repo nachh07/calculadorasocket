@@ -18,8 +18,8 @@ public class SocketClient {
         String respuesta = "";
         
         while(true){
-			System.out.print("Ingres· la expresiÛn :\n(q para salir)\n");
-		 	ecuacion= br.readLine();
+		System.out.print("Ingres√° la expresi√≥n :\n(q para salir)\n");
+		 ecuacion= br.readLine();
 	        out.println(ecuacion);
 	        respuesta= (String) in.readLine();
 	        System.out.println("Respuesta: " + respuesta);
